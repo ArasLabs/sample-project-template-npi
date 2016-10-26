@@ -35,7 +35,9 @@ You are now ready to review and use the High Tech NPI Project Template.
 2. Navigate to **Templates > Project Templates** in the table of contents (TOC).
 3. Open the High Tech NPI Template for review.
 
-Note: To create projects from the High Tech NPI template, you will need to promote the Project Template item to "Active". Otherwise, the template will not appear as an option in the template dropdown list on the New Project form.
+Note: To create projects from the High Tech NPI template, you will need to promote the Project Template item to "Approved". Otherwise, the template will not appear as an option in the template dropdown list on the New Project form.
+
+![Creating project from template](./Screenshots/ProjectFromNpiTemplate.gif)
 
 ## Contributing
 
