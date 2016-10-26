@@ -1,0 +1,1768 @@
+<AML>
+  <Item type="Project Template" id="B4F89C39D3D9421BA1E849F5C9FC260A" page="1" pagemax="1" itemmax="1" isTemp="1" isNew="1" action="add">
+    <wbs_id keyed_name="e2e" type="WBS Element">
+      <Item type="WBS Element" id="E267ADE664014C33B8FD470665850019" action="add" isTemp="1">
+        <is_top>1</is_top>
+        <keyed_name>e2e</keyed_name>
+        <deliv_required>0</deliv_required>
+        <name>e2e</name>
+        <Relationships>
+          <Item type="Sub WBS" id="5BF9418AB08348E58973A772CBDBE3AC" action="add" isTemp="1">
+            <sort_order>128</sort_order>
+            <related_id keyed_name="Front End" type="WBS Element">
+              <Item type="WBS Element" id="ED9EDC02066E4242A167722129F7B712" action="add" isTemp="1">
+                <is_top>0</is_top>
+                <wbs_index>.1</wbs_index>
+                <keyed_name>Front End</keyed_name>
+                <deliv_required>0</deliv_required>
+                <name>Front End</name>
+                <Relationships>
+                  <Item type="Sub WBS" id="439D8074EE5549A0911298DAE634C349" action="add" isTemp="1">
+                    <sort_order>128</sort_order>
+                    <related_id keyed_name="Ideation" type="WBS Element">
+                      <Item type="WBS Element" id="87F2A78664514B369E41BE4CF241C2D3" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <wbs_index>.2</wbs_index>
+                        <keyed_name>Ideation</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Ideation</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="E622FE3BD7FD4B91BC1206FB0DCB2E17" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Business Concept Review" type="Activity2">
+                              <Item type="Activity2" id="D90AF563535D4E3693E74E54E4AAB991" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Business Concept Review</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Business Concept Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="AE8D65DA0C0F4F0FB04E6B9B0D519085" action="add" isTemp="1">
+                                    <keyed_name>AEFE48473D864226B337D1E8EB232FCD</keyed_name>
+                                    <role>Marketing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>CE08187D7CA24DA0BD367EC1F31BAE7E</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="128E8DCF5F984BE58AE1C10A8B060794" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Prioritize Customer Outcomes" type="Activity2">
+                              <Item type="Activity2" id="E482B99F720C4C72B7CCF06A5382170B" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Prioritize Customer Outcomes</keyed_name>
+                                <prev_item>D90AF563535D4E3693E74E54E4AAB991</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Prioritize Customer Outcomes</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="5A768959EFF74E1DB51FAB9C708F7FD7" action="add" isTemp="1">
+                                    <keyed_name>3C9C129CCF714769828439408552A150</keyed_name>
+                                    <role>Manager</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>18F79494A97E4529A2B2C87CAAC5F2AC</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="6DEB72ED89DD47FFB78FBD4FA8C1CD10" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Prioritize Concepts" type="Activity2">
+                              <Item type="Activity2" id="AE134A35D49E41FF869586D656DA3540" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Prioritize Concepts</keyed_name>
+                                <prev_item>E482B99F720C4C72B7CCF06A5382170B</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Prioritize Concepts</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="281F9BC52B7F4A0E8BBF59D617E0132B" action="add" isTemp="1">
+                                    <keyed_name>18B7D520EF104E1C93FB582CA5C3A9FE</keyed_name>
+                                    <role>Marketing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>AFE1C86F348B449C93CDD13CF0A88772</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="A3F3C4A3CCEA4C2EA9105ED5F9F9423C" action="add" isTemp="1">
+                            <sort_order>512</sort_order>
+                            <related_id keyed_name="Proof of Concept" type="Activity2">
+                              <Item type="Activity2" id="5065B4B51E944FD4829E09C37C26FB60" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>20</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Proof of Concept</keyed_name>
+                                <prev_item>AE134A35D49E41FF869586D656DA3540</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Proof of Concept</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="E4FDDC71EB3B4D86B06062E46ADFD05F" action="add" isTemp="1">
+                                    <keyed_name>4A32903B384D45C4878B07414774A65E</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>551387B59BC74260A2281250DD7A620D</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                        <prev_item/>
+                      </Item>
+                    </related_id>
+                    <keyed_name>700CE0F29FBE4CABAE45DB5CE230C19C</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="13FB40D11CE2435B92AB5C9294FAF02F" action="add" isTemp="1">
+                    <sort_order>256</sort_order>
+                    <related_id keyed_name="Roadmap Development" type="WBS Element">
+                      <Item type="WBS Element" id="4F021B08A0BD455AB77D7046EA2C32B3" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>87F2A78664514B369E41BE4CF241C2D3</prev_item>
+                        <wbs_index>.2</wbs_index>
+                        <keyed_name>Roadmap Development</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Roadmap Development</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="ECEE27C069E24A78A4DC6113F167F881" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Prioritize Sourcing Categories" type="Activity2">
+                              <Item type="Activity2" id="DE019F0F89034D0FB446D1661BA4DECC" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Prioritize Sourcing Categories</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Prioritize Sourcing Categories</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="4D17FE0B9CDF459AB8429E643797075E" action="add" isTemp="1">
+                                    <keyed_name>AB35E6B5526D4001A194376AB9CAC1FA</keyed_name>
+                                    <role>Sourcing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>59306EFD692A4050831B92560AA769F9</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="78DDE759F69F4E75BE0E13DCF13A3BE2" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="7-Step SS" type="Activity2">
+                              <Item type="Activity2" id="778B702C0B614A668C077A1247B7906A" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>10</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>7-Step SS</keyed_name>
+                                <prev_item>DE019F0F89034D0FB446D1661BA4DECC</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>7-Step SS</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="14B94E9A561949829AB5B141B77DD40C" action="add" isTemp="1">
+                                    <keyed_name>5906FA6E7DC545B1B62D8DDFF0A823C9</keyed_name>
+                                    <role>Sourcing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>456FF0D8EA604512B7D55F2672CA5557</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="3C3A26B01CE7489EA2932C78CE2CC3B1" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Project Selection" type="Activity2">
+                              <Item type="Activity2" id="E4A4BE67F6B642F1B52340B13F08F3B2" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Project Selection</keyed_name>
+                                <prev_item>778B702C0B614A668C077A1247B7906A</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Project Selection</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="F7460FC2EE3F424D9040B1476A594D49" action="add" isTemp="1">
+                                    <keyed_name>0A12DA974A0844EABBECC39613950050</keyed_name>
+                                    <role>Steering Committee</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>641228FA926A4E38AF9F81A1AF17C569</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>39FB92FB877E42548FA78DF7052068BE</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="2E260332B5E142AE805EAC997088996D" action="add" isTemp="1">
+                    <sort_order>384</sort_order>
+                    <related_id keyed_name="Product Research" type="WBS Element">
+                      <Item type="WBS Element" id="E1BD2FD07DC84671B785B81E40F04D72" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>4F021B08A0BD455AB77D7046EA2C32B3</prev_item>
+                        <wbs_index>.3</wbs_index>
+                        <keyed_name>Product Research</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Product Research</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="EE6CFD997B4A4D689ADBDEE5A3D9B1E7" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Product Research Review" type="Activity2">
+                              <Item type="Activity2" id="955319D5BFCA431D98510D2DE03BCECE" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>10</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Product Research Review</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Product Research Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="0F0DD35F82314796A601C112218223AC" action="add" isTemp="1">
+                                    <keyed_name>96FCF7E8D2D0448F882A8C65301C2213</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>EE426D19A64F44A880D430B2AAE056BB</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="AEB42B6E5AFF4ABA82CBF457A299F9C5" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Business Opportunity Proposal" type="Activity2">
+                              <Item type="Activity2" id="C0197CF7E6F74DF797598843E56B93AA" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Business Opportunity Proposal</keyed_name>
+                                <prev_item>955319D5BFCA431D98510D2DE03BCECE</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Business Opportunity Proposal</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="6002992737034D39B4D2DE165EFE825B" action="add" isTemp="1">
+                                    <keyed_name>97BF4677E6A04B0C81753FB24E967BE5</keyed_name>
+                                    <role>Product Management</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>5469C9F4A2BD4CA8B68FB69A2FE4B763</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>F8A9E52D7F6F4BD287CDC01199417815</keyed_name>
+                    <Relationships/>
+                  </Item>
+                </Relationships>
+                <prev_item/>
+              </Item>
+            </related_id>
+            <keyed_name>66300DD4BB9C4EA4A3BB2BD1DED37B92</keyed_name>
+            <Relationships/>
+          </Item>
+          <Item type="Sub WBS" id="B8222BF9BA4543559D26D1492039C55A" action="add" isTemp="1">
+            <sort_order>256</sort_order>
+            <related_id keyed_name="Product Development" type="WBS Element">
+              <Item type="WBS Element" id="644A4DFBFCC4448FB91134806DF4DDE1" action="add" isTemp="1">
+                <is_top>0</is_top>
+                <prev_item>ED9EDC02066E4242A167722129F7B712</prev_item>
+                <wbs_index>.1</wbs_index>
+                <keyed_name>Product Development</keyed_name>
+                <deliv_required>0</deliv_required>
+                <name>Product Development</name>
+                <Relationships>
+                  <Item type="Sub WBS" id="BB2815EACA844AB08DAB6027193E7708" action="add" isTemp="1">
+                    <sort_order>128</sort_order>
+                    <related_id keyed_name="Preliminary Design" type="WBS Element">
+                      <Item type="WBS Element" id="975D1C6E0F9A4BF9BF75BC56B5C80CD0" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <wbs_index>.3</wbs_index>
+                        <keyed_name>Preliminary Design</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Preliminary Design</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="DD7EF315295D4109937CD1B7ECA93E2C" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Proof of Concept" type="Activity2">
+                              <Item type="Activity2" id="0AEAEC2448494C5BBAC6FE991B9B2604" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>10</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Proof of Concept</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Proof of Concept</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="A4EE861E61104414840253AD37947234" action="add" isTemp="1">
+                                    <keyed_name>A6DD5C45AEA54E58903812FDC6CD492B</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>BE33CE75CD944B4D923149E6B463F23F</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="9630653354F4446EABD046D3AADF2479" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Industrial Design" type="Activity2">
+                              <Item type="Activity2" id="5779703D39944A51B56068A42D2D6AA7" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Industrial Design</keyed_name>
+                                <prev_item>0AEAEC2448494C5BBAC6FE991B9B2604</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Industrial Design</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="EAAD2F779DD045B18972E4906296B1CB" action="add" isTemp="1">
+                                    <keyed_name>3243BFACDF09433EB46D1C2141E5010E</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>8953B08F4FCB44E5BE31D0EBB9AAF003</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="DB2B47B8E4B34B72B34333B989D93E34" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Architecture and Spec Review" type="Activity2">
+                              <Item type="Activity2" id="7EB70AD3242B48348A0927465445047C" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Architecture and Spec Review</keyed_name>
+                                <prev_item>5779703D39944A51B56068A42D2D6AA7</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Architecture and Spec Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="42FBDBAEF53B4AF7AE45167A82398A3B" action="add" isTemp="1">
+                                    <keyed_name>B1437432F3DB44A09672606F27BCB1CF</keyed_name>
+                                    <role>Product Management</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>B07F8FF3AFD74407B65BCBF16643041B</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="2A90AD065B57402A95BD3E8BE2007C13" action="add" isTemp="1">
+                            <sort_order>512</sort_order>
+                            <related_id keyed_name="Software M0" type="Activity2">
+                              <Item type="Activity2" id="C53A6438C03D4C43BF7EE103B8C46727" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>10</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Software M0</keyed_name>
+                                <prev_item>7EB70AD3242B48348A0927465445047C</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Software M0</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="3E32006E234042828B215DA0E772D3E2" action="add" isTemp="1">
+                                    <keyed_name>FD9B828444774141BF7EEA633A0E846B</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>2044D6B9973A4A0F997DF2A0708F70C2</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="2F3CEFC667B5449CAFE5D3952D5F3AD0" action="add" isTemp="1">
+                            <sort_order>640</sort_order>
+                            <related_id keyed_name="Rescope" type="Activity2">
+                              <Item type="Activity2" id="336F0272A36841F2B609CA86F051A554" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Rescope</keyed_name>
+                                <prev_item>C53A6438C03D4C43BF7EE103B8C46727</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Rescope</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="7D3DEB8F812940D99DBFA825834AFE44" action="add" isTemp="1">
+                                    <keyed_name>4F07BCC134A049FE895BBD83B1EEB455</keyed_name>
+                                    <role>Product Management</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>C3E76498D7E54DBD9A223426DED8A66A</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                        <prev_item/>
+                      </Item>
+                    </related_id>
+                    <keyed_name>CF0C2C3DE7DC4A73A9CA9DEF90E0D8C3</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="7AD815A0B4CA46138FA6C8981EE70DA8" action="add" isTemp="1">
+                    <sort_order>256</sort_order>
+                    <related_id keyed_name="Product Engineering" type="WBS Element">
+                      <Item type="WBS Element" id="76014863B9804C02AAC693C0BBC72A25" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>975D1C6E0F9A4BF9BF75BC56B5C80CD0</prev_item>
+                        <wbs_index>.2</wbs_index>
+                        <keyed_name>Product Engineering</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Product Engineering</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="0A146FEC7C274D8B81BA61039C3F04EF" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Significant Investment Review" type="Activity2">
+                              <Item type="Activity2" id="40C9E7FF631E47059B9455EE48A8046B" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Significant Investment Review</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Significant Investment Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="A28B2BDA09A44D34B8A57466C9E15D93" action="add" isTemp="1">
+                                    <keyed_name>5CB36538E21C4DAB8951B024551A0164</keyed_name>
+                                    <role>Steering Committee</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>0331665AD2EA4A4A9F1EDBE003F0BF97</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="2EEB6B84C6E945CF86F50F0B005E2BD4" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="7 Step SS - Commodities" type="Activity2">
+                              <Item type="Activity2" id="2F98A833F4F94C28BEEE496615E7F870" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>10</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>7 Step SS - Commodities</keyed_name>
+                                <prev_item>40C9E7FF631E47059B9455EE48A8046B</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>7 Step SS - Commodities</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="ABED3F34BAF74EDE92817E4851368D1D" action="add" isTemp="1">
+                                    <keyed_name>86BE33AF1AFB42F295C042D1E7D690F7</keyed_name>
+                                    <role>Sourcing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>28E003C94C564D4D8B8D4E502C49A8FE</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="4D78B93FC3F041219E766676820016AD" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Design Review" type="Activity2">
+                              <Item type="Activity2" id="A69C4062553C41708AF7B2231EB0025D" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Design Review</keyed_name>
+                                <prev_item>2F98A833F4F94C28BEEE496615E7F870</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Design Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="FB93BF03544E4C02BE417617E1B87EA7" action="add" isTemp="1">
+                                    <keyed_name>2A429B5F5F1C4BA5A35E82FD6163B04B</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>788A0D8C14B14454927B50AE87B1B8E6</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="1EF7BFFA04F84CBBB47DDE581E257EFB" action="add" isTemp="1">
+                            <sort_order>512</sort_order>
+                            <related_id keyed_name="E.V. Build" type="Activity2">
+                              <Item type="Activity2" id="A1DD727A08304771B8D2879F5361FDDD" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>E.V. Build</keyed_name>
+                                <prev_item>A69C4062553C41708AF7B2231EB0025D</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>E.V. Build</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="2443E03E4C914E749ED45FC5307AB516" action="add" isTemp="1">
+                                    <keyed_name>0BB49BDED3BF4E728FC86F1AFC980A42</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>698499CCF7864FDCB44F4471CC978D5F</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="5E1BF423FB0247B2BF214EFBA0A46FA3" action="add" isTemp="1">
+                            <sort_order>640</sort_order>
+                            <related_id keyed_name="Software Build" type="Activity2">
+                              <Item type="Activity2" id="0453FDF479B147F288CE78102BB43222" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Software Build</keyed_name>
+                                <prev_item>A1DD727A08304771B8D2879F5361FDDD</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Software Build</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="66657834D7F646C6B1915421FC7926FE" action="add" isTemp="1">
+                                    <keyed_name>5C4CE6A4B543449E9E85150451C7319A</keyed_name>
+                                    <role>Quality</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>56C3799F5C294EFA849661089E62126F</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="1C408BD43ED94874BB8E0A8C08642540" action="add" isTemp="1">
+                            <sort_order>768</sort_order>
+                            <related_id keyed_name="E.V. Test Review" type="Activity2">
+                              <Item type="Activity2" id="C590F0DC5CEE4134B2AB6821642FDE7C" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>E.V. Test Review</keyed_name>
+                                <prev_item>0453FDF479B147F288CE78102BB43222</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>E.V. Test Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="654FFD6AFBBF4A09A68051204FECCD66" action="add" isTemp="1">
+                                    <keyed_name>C70DFC0FF6884809B3751C6B3C4F94FD</keyed_name>
+                                    <role>Quality</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>035EF18ED5C64B8E84B93362E8B27505</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="6D90FD0A82C14E27AAB2D57B35142EBC" action="add" isTemp="1">
+                            <sort_order>896</sort_order>
+                            <related_id keyed_name="Engineering &amp; Marketing Verification" type="Activity2">
+                              <Item type="Activity2" id="3E6A3E09EFF54ACAB611C94232673026" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Engineering &amp; Marketing Verification</keyed_name>
+                                <prev_item>C590F0DC5CEE4134B2AB6821642FDE7C</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Engineering &amp; Marketing Verification</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="3DF93F687E904D0289AFACD352F5D9D3" action="add" isTemp="1">
+                                    <keyed_name>F09E5E5B0C174DA38FDC6B7A1F129804</keyed_name>
+                                    <role>Steering Committee</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>B5C7722BBD6B4FA18BD9DFD7ED39A3D3</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="E0C0C2B3A9B54C6E92ED6EE87CDB83E6" action="add" isTemp="1">
+                            <sort_order>1024</sort_order>
+                            <related_id keyed_name="H/W Dependent S/W Feature Lockdown" type="Activity2">
+                              <Item type="Activity2" id="B9834A22118A444ABCDF14CEB377AF80" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>1</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>H/W Dependent S/W Feature Lockdown</keyed_name>
+                                <prev_item>3E6A3E09EFF54ACAB611C94232673026</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>H/W Dependent S/W Feature Lockdown</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="7F2D9ECC07A0494EAB8C4CEFF5B71E5F" action="add" isTemp="1">
+                                    <keyed_name>E6A0FCD70F7840D2ACB421C4FD70CA2F</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>78ACAE90F41B417988A5E9045DE10341</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>28C6EFDFF2DC4CCA966A1307C9F956AA</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="EB4626DF6D6A4F828D1A29EAAF094643" action="add" isTemp="1">
+                    <sort_order>384</sort_order>
+                    <related_id keyed_name="Design Validation" type="WBS Element">
+                      <Item type="WBS Element" id="E221989E989A479A84FCD5A01BA58444" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>76014863B9804C02AAC693C0BBC72A25</prev_item>
+                        <wbs_index>.3</wbs_index>
+                        <keyed_name>Design Validation</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Design Validation</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="4AE5F04E21C443F5BEF2A77C70B2DBE0" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="DV Build Readiness" type="Activity2">
+                              <Item type="Activity2" id="084F590FBBC04A3790B1938C03E95E8E" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>DV Build Readiness</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>DV Build Readiness</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="18BA9B1AA72148DAA453E01E07B2ACBF" action="add" isTemp="1">
+                                    <keyed_name>C51A1A552E6F488E8BAD173A4761D04F</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>33B6379FAACA40189B823EDD9B11602E</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="9D027FB51B454C6481D298A045DB2B2C" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="DV Build" type="Activity2">
+                              <Item type="Activity2" id="064CE015015D49AFBCC8916131577DF6" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>20</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>DV Build</keyed_name>
+                                <prev_item>084F590FBBC04A3790B1938C03E95E8E</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>DV Build</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="7910F707504A47D7B025CD25B92A4F21" action="add" isTemp="1">
+                                    <keyed_name>E187DEDE4FCC448882D78DE5CA3BA265</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>E48F0C11F768457BA07ECB1C0F7BB62B</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="5DA8780A4B5141FD94BA497B739B67FD" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Software Release Candidate" type="Activity2">
+                              <Item type="Activity2" id="3A6F624150174F65AD8060884979B75F" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>25</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Software Release Candidate</keyed_name>
+                                <prev_item>064CE015015D49AFBCC8916131577DF6</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Software Release Candidate</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="9D57B16256BB49CF9456EA618ABFF9FC" action="add" isTemp="1">
+                                    <keyed_name>5C26FC1CE5074DAA9B18D77321224C26</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>FFFDA917B6AC40D1AE8B5CBE33E9BBCC</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="27AFD13FEDDA4F8F997E6D3706C4C133" action="add" isTemp="1">
+                            <sort_order>512</sort_order>
+                            <related_id keyed_name="Risk Buy" type="Activity2">
+                              <Item type="Activity2" id="15AF0196386D4A28A86A6D85131D538F" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>45</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Risk Buy</keyed_name>
+                                <prev_item>3A6F624150174F65AD8060884979B75F</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Risk Buy</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="CA27DE70F9F145899759108BB6B1DE00" action="add" isTemp="1">
+                                    <keyed_name>B231F0B46D054DD4B84EAFD4FD06AFCE</keyed_name>
+                                    <role>Sourcing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>4AEEFBA0D7AA47D98883AE54476763BC</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="4869CAB6F0724CF9A5D50905B1504E42" action="add" isTemp="1">
+                            <sort_order>640</sort_order>
+                            <related_id keyed_name="Design Validation Review" type="Activity2">
+                              <Item type="Activity2" id="C9C95640939B4245A8C2F8544F516F5C" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Design Validation Review</keyed_name>
+                                <prev_item>15AF0196386D4A28A86A6D85131D538F</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Design Validation Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="A7E3CC7EFA514DB09A975E8E877DB128" action="add" isTemp="1">
+                                    <keyed_name>603E8969EA5C4C6BB0DA2A1128494548</keyed_name>
+                                    <role>Quality</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>4489FE39F7844DB8897FE888DD9E29F5</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>6DD2F3EBBFCA49C4A2A11BA87462C987</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="96C289DEB1904539B6AFBD476F6A3938" action="add" isTemp="1">
+                    <sort_order>512</sort_order>
+                    <related_id keyed_name="Production Readiness" type="WBS Element">
+                      <Item type="WBS Element" id="1B17591970AE43929ABE697EBD80D550" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>E221989E989A479A84FCD5A01BA58444</prev_item>
+                        <wbs_index>.4</wbs_index>
+                        <keyed_name>Production Readiness</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Production Readiness</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="6098EBB8D7FE48D38E7E17B86F8051C6" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="PV Build Readiniess" type="Activity2">
+                              <Item type="Activity2" id="A1B6A6489EFC487AAE24F53D273BC34D" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>PV Build Readiniess</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>PV Build Readiniess</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="EC542C6EEEDF403D98F8B37584508D7B" action="add" isTemp="1">
+                                    <keyed_name>C6CADECE101148C7955F89B4DADFC778</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>A1AF724B22774D44A8CD21844D216FA0</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="0934E16304A04462BB550CF387FE6078" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="PV Build" type="Activity2">
+                              <Item type="Activity2" id="BEFD98C06BFD4CDF9EFE32FABAB7AE0A" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>15</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>PV Build</keyed_name>
+                                <prev_item>A1B6A6489EFC487AAE24F53D273BC34D</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>PV Build</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="C58501722B124B249A94E500701847DB" action="add" isTemp="1">
+                                    <keyed_name>6A38020B460047079BCCE0EE1507E060</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>C4E25F47784E40F28FE2C792BE319031</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="5181C8532E5248D7B58B13684457DBD1" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Software RTM" type="Activity2">
+                              <Item type="Activity2" id="E4CB8C25BE30494C89149E69375AEDA5" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>20</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Software RTM</keyed_name>
+                                <prev_item>BEFD98C06BFD4CDF9EFE32FABAB7AE0A</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Software RTM</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="DB39AED55F6E4F46966F74C5C14326AB" action="add" isTemp="1">
+                                    <keyed_name>A8DFE3F057C047ADA39226D2F0BFA8C7</keyed_name>
+                                    <role>Design</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>3D65780E6D4D4634AC28A36C5DDC869B</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="B57A45912BE247F3BBF5F593A4CBAC5F" action="add" isTemp="1">
+                            <sort_order>512</sort_order>
+                            <related_id keyed_name="PV Test Review" type="Activity2">
+                              <Item type="Activity2" id="3F30B0788C8F49D19ACB5B638EB30FFE" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>PV Test Review</keyed_name>
+                                <prev_item>E4CB8C25BE30494C89149E69375AEDA5</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>PV Test Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="11A6C4D07DD141338EAC9C2F78148588" action="add" isTemp="1">
+                                    <keyed_name>5EABBE43B8264A13A24F796A0711F173</keyed_name>
+                                    <role>Quality</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>7A07623BC3F94FB49A96C990589B35AF</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="2A457AF8F8AA473D949DBABB73D038A0" action="add" isTemp="1">
+                            <sort_order>640</sort_order>
+                            <related_id keyed_name="Production Go/No-Go" type="Activity2">
+                              <Item type="Activity2" id="E9E205DD21584F92A765BB760D8DFDAB" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Production Go/No-Go</keyed_name>
+                                <prev_item>3F30B0788C8F49D19ACB5B638EB30FFE</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Production Go/No-Go</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="231470E04BFA443D8A1B7B6336583EA3" action="add" isTemp="1">
+                                    <keyed_name>37E019384B93413BBB8BFC3AB84B3006</keyed_name>
+                                    <role>Quality</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>42B6BFAC69E44F1C9708AC45DDB642DC</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>EAEC6C9F87734F6F94A94ED76F907552</keyed_name>
+                    <Relationships/>
+                  </Item>
+                </Relationships>
+              </Item>
+            </related_id>
+            <keyed_name>AF1B7FF91EE14451A31ED627779C8F5E</keyed_name>
+            <Relationships/>
+          </Item>
+          <Item type="Sub WBS" id="CEEE9E8AC58F459090728A2F55E127E0" action="add" isTemp="1">
+            <sort_order>384</sort_order>
+            <related_id keyed_name="Production" type="WBS Element">
+              <Item type="WBS Element" id="863D1CB30E8F407AA385B18FBEC93A6E" action="add" isTemp="1">
+                <is_top>0</is_top>
+                <prev_item>644A4DFBFCC4448FB91134806DF4DDE1</prev_item>
+                <wbs_index>.3</wbs_index>
+                <keyed_name>Production</keyed_name>
+                <deliv_required>0</deliv_required>
+                <name>Production</name>
+                <Relationships>
+                  <Item type="Sub WBS" id="CEAF79D51C894EAD92B3F207BEE79AD3" action="add" isTemp="1">
+                    <sort_order>128</sort_order>
+                    <related_id keyed_name="Production Ramp-Up" type="WBS Element">
+                      <Item type="WBS Element" id="91C55FAA850E4A98B7E7DA9392A47BAC" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <wbs_index>.4</wbs_index>
+                        <keyed_name>Production Ramp-Up</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Production Ramp-Up</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="555E8D67A4FF437DAA56D98B66744E11" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Post Mortem" type="Activity2">
+                              <Item type="Activity2" id="6316EE352C4748DA8611528CB94AD258" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Post Mortem</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Post Mortem</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="A769745927F14186BF8B4A8363D88D0E" action="add" isTemp="1">
+                                    <keyed_name>F2D7E1F224EF48F385E2DDE3276B36DD</keyed_name>
+                                    <role>Project Manager</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>AE09817E64A34D9FAF65D2D5D2D5A176</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="D6BE3D7F7AA5421DBE0B8EA8AE0626EF" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Sustaining Handoff" type="Activity2">
+                              <Item type="Activity2" id="25D5FFEE65B84CC6803929A37C5CD4F3" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Sustaining Handoff</keyed_name>
+                                <prev_item>6316EE352C4748DA8611528CB94AD258</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Sustaining Handoff</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="63BA6F7E74A44E80B5DC4B1E9D910E83" action="add" isTemp="1">
+                                    <keyed_name>2AA3F9AB19034A77BBDA041F2A602475</keyed_name>
+                                    <role>Project Manager</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>32CF2E3067C34790AE214C5DE05CB56B</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                        <prev_item/>
+                      </Item>
+                    </related_id>
+                    <keyed_name>DEBD3C7B91B2448692BFC83EFD0CFE9E</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="665659715A7843A98018EAAE98F2B971" action="add" isTemp="1">
+                    <sort_order>256</sort_order>
+                    <related_id keyed_name="Production Sustaining" type="WBS Element">
+                      <Item type="WBS Element" id="57C2CEC676DF499A979BB646E0AAFD36" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>91C55FAA850E4A98B7E7DA9392A47BAC</prev_item>
+                        <wbs_index>.2</wbs_index>
+                        <keyed_name>Production Sustaining</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Production Sustaining</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="38E128C52E6C4245856FC7C3FD232F38" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Business Impact Alert" type="Activity2">
+                              <Item type="Activity2" id="0B6D373C064D4863AA4BB0C59A7606C3" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>1</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Business Impact Alert</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Business Impact Alert</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="C28FB71770F64B09BC57915BE2705193" action="add" isTemp="1">
+                                    <keyed_name>78325E7B5D7D4E62A4B8D43174B7B5CB</keyed_name>
+                                    <role>Product Management</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>89ADF070237F43E28DB8C80A9CB2FB72</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="ED6822326B8D4EEA810B0A8812B94904" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Launch Post Mortem" type="Activity2">
+                              <Item type="Activity2" id="A3E7451905F34190B35F81FF786C1C86" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>15</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Launch Post Mortem</keyed_name>
+                                <prev_item>0B6D373C064D4863AA4BB0C59A7606C3</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Launch Post Mortem</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="57A50ABA8A6147F0BB006FF74D173DB7" action="add" isTemp="1">
+                                    <keyed_name>E557696542494E1485AF7DC37EE70977</keyed_name>
+                                    <role>Marketing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>7CB9AF41E5814B23AB38C3DB37197EA3</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="E21BE205FB2E4177A07641551DEB8A13" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Portfolio Performance Review" type="Activity2">
+                              <Item type="Activity2" id="A7611D0D335547DB9CC9CB99D06F21C4" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Portfolio Performance Review</keyed_name>
+                                <prev_item>A3E7451905F34190B35F81FF786C1C86</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Portfolio Performance Review</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="03329B986028444489B311F2ECBD9617" action="add" isTemp="1">
+                                    <keyed_name>DC13C8CE89B547BBBBBA91AF29C12F84</keyed_name>
+                                    <role>Product Management</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>A90933573BAB479D8C19F478D45614D8</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="8A1202FBCB854623A2ADD3CF318B4C57" action="add" isTemp="1">
+                            <sort_order>512</sort_order>
+                            <related_id keyed_name="Exit Business Decision" type="Activity2">
+                              <Item type="Activity2" id="CF8795FEC598469AAC7B6757984E2DAB" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>2</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Exit Business Decision</keyed_name>
+                                <prev_item>A7611D0D335547DB9CC9CB99D06F21C4</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Exit Business Decision</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="7D4619788B5D4D78A0F8C12677B87C05" action="add" isTemp="1">
+                                    <keyed_name>AAE7EBF3D4324BA488B483EA2D2DB985</keyed_name>
+                                    <role>Steering Committee</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>1CF23602969E40A3928349E81D3CA40E</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>D9876AF1E2A14ABBA5C19AEF651E0A1D</keyed_name>
+                    <Relationships/>
+                  </Item>
+                </Relationships>
+              </Item>
+            </related_id>
+            <keyed_name>0AEDD92B2C384A38B80DC50EE08644BE</keyed_name>
+            <Relationships/>
+          </Item>
+          <Item type="Sub WBS" id="90D4DE8E116E45B491230AA1B45892D1" action="add" isTemp="1">
+            <sort_order>512</sort_order>
+            <related_id keyed_name="Product Retirement" type="WBS Element">
+              <Item type="WBS Element" id="D09D566CDC1F4CACA9A7B59EF65EDDD0" action="add" isTemp="1">
+                <is_top>0</is_top>
+                <prev_item>863D1CB30E8F407AA385B18FBEC93A6E</prev_item>
+                <wbs_index>.3</wbs_index>
+                <keyed_name>Product Retirement</keyed_name>
+                <deliv_required>0</deliv_required>
+                <name>Product Retirement</name>
+                <Relationships>
+                  <Item type="Sub WBS" id="CDCD80DD7CEA4948A86CEB122ACFEDF9" action="add" isTemp="1">
+                    <sort_order>128</sort_order>
+                    <related_id keyed_name="SKU Management" type="WBS Element">
+                      <Item type="WBS Element" id="72D8B40CD3444DFEBF673038D40FE566" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <wbs_index>.5</wbs_index>
+                        <keyed_name>SKU Management</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>SKU Management</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="D70FF11480AD42CFA3C6DDC01DBA6A72" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Product Retirement Strategy" type="Activity2">
+                              <Item type="Activity2" id="B84BFF8E05A74B5ABC3E9F705E2D344E" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>10</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Product Retirement Strategy</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Product Retirement Strategy</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="D92BEDA8C25F43B7BB1B94B393748B7B" action="add" isTemp="1">
+                                    <keyed_name>4163BA58508147AE89D3D145BBB95667</keyed_name>
+                                    <role>Product Management</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>FE43150EC14B4764BEC003F79CE26EF1</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="6DC7BE4CDF3C4F5995C2263A0AF77A76" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Inventory Purge Readiness" type="Activity2">
+                              <Item type="Activity2" id="0F25F09003114F03991EE221C4CA2FF4" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Inventory Purge Readiness</keyed_name>
+                                <prev_item>B84BFF8E05A74B5ABC3E9F705E2D344E</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Inventory Purge Readiness</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="DE59ABA5A4B945ECB608ED51661D774B" action="add" isTemp="1">
+                                    <keyed_name>DDBAEFC5E641475DA9BE74C82CB15C33</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>CD682A70FE5E4934BCC87D65CCAA648E</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                        <prev_item/>
+                      </Item>
+                    </related_id>
+                    <keyed_name>7B630E7847FD4BC0AEF39DB52FBC64E1</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="585058039DDF4DB38C6CE1461E7D0FAB" action="add" isTemp="1">
+                    <sort_order>256</sort_order>
+                    <related_id keyed_name="Production Shutdown" type="WBS Element">
+                      <Item type="WBS Element" id="AD53E225FC0B487E998CBF48D7F0BB26" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>72D8B40CD3444DFEBF673038D40FE566</prev_item>
+                        <wbs_index>.2</wbs_index>
+                        <keyed_name>Production Shutdown</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Production Shutdown</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="4D6AE42EA8FB4DFB8C43AFEFD46770D2" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Production Shutdown Readiness" type="Activity2">
+                              <Item type="Activity2" id="9E1260A033F14951888C845A07E1CCD6" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>4</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Production Shutdown Readiness</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Production Shutdown Readiness</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="7E8D811E35C844A98F84FC2A0E28F525" action="add" isTemp="1">
+                                    <keyed_name>8EE0B543FC4E42439B931EE2B477D453</keyed_name>
+                                    <role>Product Management</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>1B84D52731F84BA387BBC6DDF17FBCF5</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="4245761641424999954B3C928F2AA52E" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Production Shutdown Checkpoint" type="Activity2">
+                              <Item type="Activity2" id="86F4A746E5B3401DB9D8B26ECBFA8F6C" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>1</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Production Shutdown Checkpoint</keyed_name>
+                                <prev_item>9E1260A033F14951888C845A07E1CCD6</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Production Shutdown Checkpoint</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="A17A2D853847410089E069859039481E" action="add" isTemp="1">
+                                    <keyed_name>D5D945FC754545C59685CB98423BB63E</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>C979FD9BB14D4EA3A0E6DE24052D8585</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>931024C5D175435D9391087998118DB9</keyed_name>
+                    <Relationships/>
+                  </Item>
+                  <Item type="Sub WBS" id="EFCD720B57364F1FADF42A0C1F233D15" action="add" isTemp="1">
+                    <sort_order>384</sort_order>
+                    <related_id keyed_name="Termination" type="WBS Element">
+                      <Item type="WBS Element" id="F5C5B8AD8BBA42BAA1334E4408C63E4D" action="add" isTemp="1">
+                        <is_top>0</is_top>
+                        <prev_item>AD53E225FC0B487E998CBF48D7F0BB26</prev_item>
+                        <wbs_index>.3</wbs_index>
+                        <keyed_name>Termination</keyed_name>
+                        <deliv_required>0</deliv_required>
+                        <name>Termination</name>
+                        <Relationships>
+                          <Item type="WBS Activity2" id="CC7874F834D74E3B8A9200315C2D77D0" action="add" isTemp="1">
+                            <sort_order>128</sort_order>
+                            <related_id keyed_name="Zero Inventory Checkpoint" type="Activity2">
+                              <Item type="Activity2" id="461777E9302C47EF83269E1A6E9B97A7" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>5</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Zero Inventory Checkpoint</keyed_name>
+                                <deliv_required>0</deliv_required>
+                                <name>Zero Inventory Checkpoint</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="9DBC2253E4BA401BA3DE482460E53753" action="add" isTemp="1">
+                                    <keyed_name>10878C06913C4900B714B3D1A1DF7358</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                                <prev_item/>
+                              </Item>
+                            </related_id>
+                            <keyed_name>F4EF99D1E9854674AC8405B086E6C617</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="01A1A878D2264902A7C4B384BBCC30F0" action="add" isTemp="1">
+                            <sort_order>256</sort_order>
+                            <related_id keyed_name="Termination Readiness" type="Activity2">
+                              <Item type="Activity2" id="81EFAE7AB78C46189C435C87399A5DA1" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>10</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Termination Readiness</keyed_name>
+                                <prev_item>461777E9302C47EF83269E1A6E9B97A7</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Termination Readiness</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="AB917E0098754E5BB87599AD2ADEC229" action="add" isTemp="1">
+                                    <keyed_name>D4AD9796CE8C45DEB9E83E243BCB38F4</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>948FCC2745DB40FF84A9479646F2D7AD</keyed_name>
+                            <Relationships/>
+                          </Item>
+                          <Item type="WBS Activity2" id="46AF935CA71A433BA36B1B0FE589A843" action="add" isTemp="1">
+                            <sort_order>384</sort_order>
+                            <related_id keyed_name="Termination Checkpoint" type="Activity2">
+                              <Item type="Activity2" id="73EBA3A54D264ADEB74B3533853BA401" action="add" isTemp="1">
+                                <is_milestone>0</is_milestone>
+                                <expected_duration>1</expected_duration>
+                                <is_required>0</is_required>
+                                <keyed_name>Termination Checkpoint</keyed_name>
+                                <prev_item>81EFAE7AB78C46189C435C87399A5DA1</prev_item>
+                                <deliv_required>0</deliv_required>
+                                <name>Termination Checkpoint</name>
+                                <Relationships>
+                                  <Item type="Activity2 Assignment" id="7D6E31DAE75C4B749C5063BE003D0915" action="add" isTemp="1">
+                                    <keyed_name>75F4B87CCE924018990E818B0057ADE0</keyed_name>
+                                    <role>Manufacturing</role>
+                                    <sort_order>128</sort_order>
+                                    <Relationships/>
+                                  </Item>
+                                </Relationships>
+                              </Item>
+                            </related_id>
+                            <keyed_name>36FE39F3E58A4B2F91D298FD3844F768</keyed_name>
+                            <Relationships/>
+                          </Item>
+                        </Relationships>
+                      </Item>
+                    </related_id>
+                    <keyed_name>9E9D4C45B4CC46DCB1D669D88065DD74</keyed_name>
+                    <Relationships/>
+                  </Item>
+                </Relationships>
+              </Item>
+            </related_id>
+            <keyed_name>3304969072C749A6865F0E2A8B5B1E5F</keyed_name>
+            <Relationships/>
+          </Item>
+        </Relationships>
+        <prev_item/>
+      </Item>
+    </wbs_id>
+    <major_rev>A</major_rev>
+    <keyed_name>e2e</keyed_name>
+    <config_id keyed_name="e2e" type="Project Template">8556DDF8DC2243D3BBC13305E13E8900</config_id>
+    <modified_on>05/23/2007 08:34:22 AM</modified_on>
+    <not_lockable>0</not_lockable>
+    <created_on>10/22/2006 05:34:05 PM</created_on>
+    <current_state name="Approved" keyed_name="Approved" type="Life Cycle State">554CD4ACFC294AA4869E4BFE4135AF3F</current_state>
+    <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+    <generation>1</generation>
+    <is_released>0</is_released>
+    <description>High Tech - New Product Introduction end-2-end</description>
+    <state>Approved</state>
+    <permission_id keyed_name="Project" type="Permission">1E63D742A5794F8DB995A5298A202C4C</permission_id>
+    <is_current>1</is_current>
+    <new_version>1</new_version>
+    <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+    <name>e2e</name>
+  </Item>
+  <Item type="Predecessor" id="999C8C1074CD4C6BA4D211C40743E027" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>832BB028620D4FAD872D8FF98250061A</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Prioritize Customer Outcomes" type="Activity2">E482B99F720C4C72B7CCF06A5382170B</source_id>
+    <related_id keyed_name="Business Concept Review" type="Activity2">D90AF563535D4E3693E74E54E4AAB991</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="759DC7D408474432A956F6C7A919DFE2" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>9F1C5A1EA6EF4390BABBC2FECD32F695</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Prioritize Concepts" type="Activity2">AE134A35D49E41FF869586D656DA3540</source_id>
+    <related_id keyed_name="Prioritize Customer Outcomes" type="Activity2">E482B99F720C4C72B7CCF06A5382170B</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="33448020245242CB91B7F43F16C26793" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>4CDA2ED772734524995E35BA234F3F60</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Proof of Concept" type="Activity2">5065B4B51E944FD4829E09C37C26FB60</source_id>
+    <related_id keyed_name="Prioritize Concepts" type="Activity2">AE134A35D49E41FF869586D656DA3540</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="E76FC20ECE55402F9853D67548CF02E5" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>2A1D749242184C989FB2B98320889CD0</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Prioritize Sourcing Categories" type="Activity2">DE019F0F89034D0FB446D1661BA4DECC</source_id>
+    <related_id keyed_name="Proof of Concept" type="Activity2">5065B4B51E944FD4829E09C37C26FB60</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="19E85F95DD5D48DCAA802BE0A02B2558" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>A892CCE0A87D43B1B86D79AEAE3F509F</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="7-Step SS" type="Activity2">778B702C0B614A668C077A1247B7906A</source_id>
+    <related_id keyed_name="Proof of Concept" type="Activity2">5065B4B51E944FD4829E09C37C26FB60</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="93C520AEAB4547FDAE03CB6F683B6B67" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>A550AF493D1E457EAE1D2929A121BA76</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Product Research Review" type="Activity2">955319D5BFCA431D98510D2DE03BCECE</source_id>
+    <related_id keyed_name="Project Selection" type="Activity2">E4A4BE67F6B642F1B52340B13F08F3B2</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="0064C7F13B834421BC4F6B6B113871AC" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>E36C2A367F5D428AACCA1567422DBA22</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Business Opportunity Proposal" type="Activity2">C0197CF7E6F74DF797598843E56B93AA</source_id>
+    <related_id keyed_name="Product Research Review" type="Activity2">955319D5BFCA431D98510D2DE03BCECE</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="BA585BC94304482AA249A655CEA4FCA6" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>1009031EABEA4EA5BF396E29BD41E317</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Proof of Concept" type="Activity2">0AEAEC2448494C5BBAC6FE991B9B2604</source_id>
+    <related_id keyed_name="Business Opportunity Proposal" type="Activity2">C0197CF7E6F74DF797598843E56B93AA</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="A25F435C819F458F89182BA93AA90E03" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>22619E87A34C4BB1AF187628D134F577</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Industrial Design" type="Activity2">5779703D39944A51B56068A42D2D6AA7</source_id>
+    <related_id keyed_name="Proof of Concept" type="Activity2">0AEAEC2448494C5BBAC6FE991B9B2604</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="A5CC6D8ED627478F8CFAE0F1DA6AE9E6" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>968FD89C282C41B08ACCBE54BAC41386</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Architecture and Spec Review" type="Activity2">7EB70AD3242B48348A0927465445047C</source_id>
+    <related_id keyed_name="Industrial Design" type="Activity2">5779703D39944A51B56068A42D2D6AA7</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="84BA27E06C214F22931BE9A554ED1FE0" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>C56C48BA6F0C4FEAB2A7DBDC442B39AA</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Software M0" type="Activity2">C53A6438C03D4C43BF7EE103B8C46727</source_id>
+    <related_id keyed_name="Industrial Design" type="Activity2">5779703D39944A51B56068A42D2D6AA7</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="015D95E58BAB491A9ADE15ECFF90B234" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>EA378E50863E475F975DBE46763E39C3</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Rescope" type="Activity2">336F0272A36841F2B609CA86F051A554</source_id>
+    <related_id keyed_name="Architecture and Spec Review" type="Activity2">7EB70AD3242B48348A0927465445047C</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="2127014BCF484EFDBC23D6EC61150FF8" action="add" isTemp="1">
+    <sort_order>256</sort_order>
+    <keyed_name>F64FDA25FAE84C868B8160DB18C75579</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Rescope" type="Activity2">336F0272A36841F2B609CA86F051A554</source_id>
+    <related_id keyed_name="Software M0" type="Activity2">C53A6438C03D4C43BF7EE103B8C46727</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="F55CFBFDE9CF44EC9DAD8FB4486A0190" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>F8D2878BA2A04AE18CF888CDAF963DAE</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Significant Investment Review" type="Activity2">40C9E7FF631E47059B9455EE48A8046B</source_id>
+    <related_id keyed_name="Rescope" type="Activity2">336F0272A36841F2B609CA86F051A554</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="64A38A55125142298FD3E3A8B6C65D8A" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>F111EBDF35B34623B2B9BE963AD242CB</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="7 Step SS - Commodities" type="Activity2">2F98A833F4F94C28BEEE496615E7F870</source_id>
+    <related_id keyed_name="Significant Investment Review" type="Activity2">40C9E7FF631E47059B9455EE48A8046B</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="1138DE7844E543D8ABC92ED4D85C57A5" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>FBADAD90DBDB4AC094B0197D6E5FD09F</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Design Review" type="Activity2">A69C4062553C41708AF7B2231EB0025D</source_id>
+    <related_id keyed_name="7 Step SS - Commodities" type="Activity2">2F98A833F4F94C28BEEE496615E7F870</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="39C1404D7FA445EB8B19C414CCB77D8B" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>1A98DD2BFD4641ECB4A160EEB638ECF0</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="E.V. Build" type="Activity2">A1DD727A08304771B8D2879F5361FDDD</source_id>
+    <related_id keyed_name="Design Review" type="Activity2">A69C4062553C41708AF7B2231EB0025D</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="34A727A335C84F47A987346D89041AE5" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>DA65C3A68F284404B9C3EF1E8EF6970E</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Software Build" type="Activity2">0453FDF479B147F288CE78102BB43222</source_id>
+    <related_id keyed_name="Design Review" type="Activity2">A69C4062553C41708AF7B2231EB0025D</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="156DA474F3894D56954EA6E41090AFD2" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>9B567EF206CE41DBB3D0C2575F527DE7</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="E.V. Test Review" type="Activity2">C590F0DC5CEE4134B2AB6821642FDE7C</source_id>
+    <related_id keyed_name="E.V. Build" type="Activity2">A1DD727A08304771B8D2879F5361FDDD</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="12CCE79D5A40446590FFDFEA0E126F91" action="add" isTemp="1">
+    <sort_order>256</sort_order>
+    <keyed_name>D8B0853D53CD4649B834CD6CC4440A7E</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="E.V. Test Review" type="Activity2">C590F0DC5CEE4134B2AB6821642FDE7C</source_id>
+    <related_id keyed_name="Software Build" type="Activity2">0453FDF479B147F288CE78102BB43222</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="D43F9C79C840489AB9AFDAE28DC6D571" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>C66E95768D944809A485FDFCF5A31243</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Engineering &amp; Marketing Verification" type="Activity2">3E6A3E09EFF54ACAB611C94232673026</source_id>
+    <related_id keyed_name="E.V. Test Review" type="Activity2">C590F0DC5CEE4134B2AB6821642FDE7C</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="B948F1FACEC34721AA2D370267DFB67B" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>EA2A5ABFE4C34E98A538BEE42798DF4E</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="H/W Dependent S/W Feature Lockdown" type="Activity2">B9834A22118A444ABCDF14CEB377AF80</source_id>
+    <related_id keyed_name="E.V. Test Review" type="Activity2">C590F0DC5CEE4134B2AB6821642FDE7C</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="0B12C4D557284F9999F962E3B6662086" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>AD9CB9AC9A614DDEBC765CEB30F60CA8</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="DV Build Readiness" type="Activity2">084F590FBBC04A3790B1938C03E95E8E</source_id>
+    <related_id keyed_name="Engineering &amp; Marketing Verification" type="Activity2">3E6A3E09EFF54ACAB611C94232673026</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="F99AFB59C2934F1F9D302790E66BBA3D" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>FA55115A9F164DC9A18033557143672E</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="DV Build" type="Activity2">064CE015015D49AFBCC8916131577DF6</source_id>
+    <related_id keyed_name="DV Build Readiness" type="Activity2">084F590FBBC04A3790B1938C03E95E8E</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="C43F1148DD71488585B5682A3DE71E1E" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>E634E0C214D64B1A97AD01636FBCCF1B</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Software Release Candidate" type="Activity2">3A6F624150174F65AD8060884979B75F</source_id>
+    <related_id keyed_name="H/W Dependent S/W Feature Lockdown" type="Activity2">B9834A22118A444ABCDF14CEB377AF80</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="17341F1DD1954E6D9A4F9FDC19543BF1" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>454E8574522E45BCA5ECD15AE55BE9EB</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Risk Buy" type="Activity2">15AF0196386D4A28A86A6D85131D538F</source_id>
+    <related_id keyed_name="Engineering &amp; Marketing Verification" type="Activity2">3E6A3E09EFF54ACAB611C94232673026</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="21E12E3128B44594B809735F7AC175D1" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>B5C7B6AD2DC2423EA69B265013886789</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Design Validation Review" type="Activity2">C9C95640939B4245A8C2F8544F516F5C</source_id>
+    <related_id keyed_name="DV Build" type="Activity2">064CE015015D49AFBCC8916131577DF6</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="BC25BD5FF6184040B40E6FF43FF765AC" action="add" isTemp="1">
+    <sort_order>256</sort_order>
+    <keyed_name>A84DAC655FF2468EBDA2F386979DF1F6</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Design Validation Review" type="Activity2">C9C95640939B4245A8C2F8544F516F5C</source_id>
+    <related_id keyed_name="Risk Buy" type="Activity2">15AF0196386D4A28A86A6D85131D538F</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="AED030BD47CE42E1BFCCEB16FD7A0F16" action="add" isTemp="1">
+    <sort_order>384</sort_order>
+    <keyed_name>79987FBF4B2B42C1AF0185BAE0B62D37</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Design Validation Review" type="Activity2">C9C95640939B4245A8C2F8544F516F5C</source_id>
+    <related_id keyed_name="Software Release Candidate" type="Activity2">3A6F624150174F65AD8060884979B75F</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="EC08500C07694CEFAAEF7B7C7A01E281" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>D61EFEE8C3E04D35B9931324562AC6C9</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="PV Build Readiniess" type="Activity2">A1B6A6489EFC487AAE24F53D273BC34D</source_id>
+    <related_id keyed_name="Design Validation Review" type="Activity2">C9C95640939B4245A8C2F8544F516F5C</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="559EEE18DABE49DAB415677E7EB46A00" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>44283B7612BB42F1908039329448BF06</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="PV Build" type="Activity2">BEFD98C06BFD4CDF9EFE32FABAB7AE0A</source_id>
+    <related_id keyed_name="PV Build Readiniess" type="Activity2">A1B6A6489EFC487AAE24F53D273BC34D</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="754DCCC2C6884F899DBB525300FB9EFA" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>19C7FF68313D4B97834BCF784532A38D</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Software RTM" type="Activity2">E4CB8C25BE30494C89149E69375AEDA5</source_id>
+    <related_id keyed_name="PV Build Readiniess" type="Activity2">A1B6A6489EFC487AAE24F53D273BC34D</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="7DBF06D36D6846178FCBA0A93295F3BE" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>109C1E413E394C7B9EB2F5A5092C9DD3</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="PV Test Review" type="Activity2">3F30B0788C8F49D19ACB5B638EB30FFE</source_id>
+    <related_id keyed_name="PV Build" type="Activity2">BEFD98C06BFD4CDF9EFE32FABAB7AE0A</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="872A9D20252A4D1D8CF38DC9F9B359C0" action="add" isTemp="1">
+    <sort_order>256</sort_order>
+    <keyed_name>D7C02CA08984499AA243552A88F45227</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="PV Test Review" type="Activity2">3F30B0788C8F49D19ACB5B638EB30FFE</source_id>
+    <related_id keyed_name="Software RTM" type="Activity2">E4CB8C25BE30494C89149E69375AEDA5</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="CA1BAC455B5449849397B9D7F31FEAE7" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>012B6F6E6A964A95A734FFF41D3B0B40</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Production Go/No-Go" type="Activity2">E9E205DD21584F92A765BB760D8DFDAB</source_id>
+    <related_id keyed_name="PV Test Review" type="Activity2">3F30B0788C8F49D19ACB5B638EB30FFE</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="4DFA81F073B041DCA9BFD08AEFA278A5" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>610F52F330CC4E5CB6A10BA1D36890E4</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Post Mortem" type="Activity2">6316EE352C4748DA8611528CB94AD258</source_id>
+    <related_id keyed_name="Production Go/No-Go" type="Activity2">E9E205DD21584F92A765BB760D8DFDAB</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="423E8C3852B74515BEE29C956918F488" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>67F45601D1E54849A0DD7A441CCD4C9B</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Sustaining Handoff" type="Activity2">25D5FFEE65B84CC6803929A37C5CD4F3</source_id>
+    <related_id keyed_name="Post Mortem" type="Activity2">6316EE352C4748DA8611528CB94AD258</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="9B9594096CCF40418C538D7C2D9DB719" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>9B87B75096C940CDA1E1359E4A62D0FB</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Business Impact Alert" type="Activity2">0B6D373C064D4863AA4BB0C59A7606C3</source_id>
+    <related_id keyed_name="Sustaining Handoff" type="Activity2">25D5FFEE65B84CC6803929A37C5CD4F3</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="7FB9A36BFE0048D2BAB6C654E9BA4246" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>484F8D7693024B1FA0A038590ED83972</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Launch Post Mortem" type="Activity2">A3E7451905F34190B35F81FF786C1C86</source_id>
+    <related_id keyed_name="Business Impact Alert" type="Activity2">0B6D373C064D4863AA4BB0C59A7606C3</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="9C48B0459BA74437BDE09A713ED9B559" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>7212611FBB3244828DB40D222B6DBE46</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Portfolio Performance Review" type="Activity2">A7611D0D335547DB9CC9CB99D06F21C4</source_id>
+    <related_id keyed_name="Launch Post Mortem" type="Activity2">A3E7451905F34190B35F81FF786C1C86</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="12E35AA89F554EB89841A8DFABDB7BD1" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>C9BC548D5CC547899F18AB700535CDC9</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Exit Business Decision" type="Activity2">CF8795FEC598469AAC7B6757984E2DAB</source_id>
+    <related_id keyed_name="Portfolio Performance Review" type="Activity2">A7611D0D335547DB9CC9CB99D06F21C4</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="9D8E043768F243E1A5BF0EAAA2CDC3CE" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>AAF5EE0F172A4CBDAD90FE325F9EDC47</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Product Retirement Strategy" type="Activity2">B84BFF8E05A74B5ABC3E9F705E2D344E</source_id>
+    <related_id keyed_name="Exit Business Decision" type="Activity2">CF8795FEC598469AAC7B6757984E2DAB</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="3811B9EB840042E3BE1DB3820D31F256" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>90B569E6BFD84602BBA3839B094C9253</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Inventory Purge Readiness" type="Activity2">0F25F09003114F03991EE221C4CA2FF4</source_id>
+    <related_id keyed_name="Product Retirement Strategy" type="Activity2">B84BFF8E05A74B5ABC3E9F705E2D344E</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="741521D3DC0F443CBEEF1E957CA6E676" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>80DB55348E4A42548637266548074B34</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Production Shutdown Readiness" type="Activity2">9E1260A033F14951888C845A07E1CCD6</source_id>
+    <related_id keyed_name="Inventory Purge Readiness" type="Activity2">0F25F09003114F03991EE221C4CA2FF4</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="19910D4551B349D896063F1809651DD2" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>365B94BABD4745D49A8FFCC6AB0DE899</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Production Shutdown Checkpoint" type="Activity2">86F4A746E5B3401DB9D8B26ECBFA8F6C</source_id>
+    <related_id keyed_name="Production Shutdown Readiness" type="Activity2">9E1260A033F14951888C845A07E1CCD6</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="449CF578368448E6843B9D62CE84340B" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>EAC38C0338E2425B94B78573F9F2DA50</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Zero Inventory Checkpoint" type="Activity2">461777E9302C47EF83269E1A6E9B97A7</source_id>
+    <related_id keyed_name="Production Shutdown Checkpoint" type="Activity2">86F4A746E5B3401DB9D8B26ECBFA8F6C</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="3CB3BBBC03BE4BDCBB582DFA99B76EB9" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>E9CC540BAAB24EC78FA2FECC4A67DA57</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Termination Readiness" type="Activity2">81EFAE7AB78C46189C435C87399A5DA1</source_id>
+    <related_id keyed_name="Zero Inventory Checkpoint" type="Activity2">461777E9302C47EF83269E1A6E9B97A7</related_id>
+    <Relationships/>
+  </Item>
+  <Item type="Predecessor" id="951B146F92BE4359A532DBA6E610882C" action="add" isTemp="1">
+    <sort_order>128</sort_order>
+    <keyed_name>97F0C436E8574536818A240E3E49856A</keyed_name>
+    <precedence_type>Finish to Start</precedence_type>
+    <source_id keyed_name="Termination Checkpoint" type="Activity2">73EBA3A54D264ADEB74B3533853BA401</source_id>
+    <related_id keyed_name="Termination Readiness" type="Activity2">81EFAE7AB78C46189C435C87399A5DA1</related_id>
+    <Relationships/>
+  </Item>
+</AML>
