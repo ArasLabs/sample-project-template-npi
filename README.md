@@ -1,25 +1,14 @@
-# Project Name
+# High Tech NPI Project Template
 
-TODO: Write a project description
-
-## Project Details
-
-See [TESTSTATUS file](./TESTSTATUS.md) for latest testing information.
+A Multiple Phase Project Template for High Tech New Product Introduction (NPI).
 
 #### Built Using:
-Aras 11.0 SPx
+Aras 11.0 SP7
 
 #### Versions Tested:
-Aras 11.0 SPx, Aras 11.0 SPx (open release)
-
-#### Browsers Tested:
-Internet Explorer 11, Firefox 38 ESR, Chrome
+Aras 11.0 SP7, Aras 11.0 SP5 (open release)
 
 > Though built and tested using Aras 11.0 SP7, this project should function in older releases of Aras 11.0 and Aras 10.0.
-
-## How It Works
-
-TODO: Describe how it works
 
 ## Installation
 
@@ -29,16 +18,24 @@ TODO: Describe how it works
 ### Pre-requisites
 
 1. Aras Innovator installed (version 11.0 SPx preferred)
-2. Aras Package Import tool
-3. .......
+2. [npdi-template.xml file](./Data/npdi-template.xml)
 
 ### Install Steps
 
-TODO: Describe the installation process
+1. Open up Nash.aspx or AML Studio.
+2. Login using your Aras instance credentials.
+3. Copy the contents of `npdi-template.xml` into Nash or AML Studio.
+4. Click **Submit**.
+
+You are now ready to review and use the High Tech NPI Project Template.
 
 ## Usage
 
-TODO: Write usage instructions
+1. Log in to Aras as admin.
+2. Navigate to **Templates > Project Templates** in the table of contents (TOC).
+3. Open the High Tech NPI Template for review.
+
+Note: To create projects from the High Tech NPI template, you will need to promote the Project Template item to "Active". Otherwise, the template will not appear as an option in the template dropdown list on the New Project form.
 
 ## Contributing
 
@@ -52,7 +49,9 @@ For more information on contributing to this project, another Aras Labs project,
 
 ## Credits
 
-TODO: Write credits if others contributed to the project
+Original code written by Peter Schroer for Aras Corporation.
+
+Documented and published by Eli Donahue for Aras Labs. @EliJDonahue
 
 ## License
 
